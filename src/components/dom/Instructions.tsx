@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Instructions({ children }) {
   return (
     <div
@@ -21,5 +23,5 @@ export default function Instructions({ children }) {
         <span className='text-red-200'>/Logo</span>
       </div>
     </div>
-  )
+  );
 }
