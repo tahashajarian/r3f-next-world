@@ -15,7 +15,7 @@ const Scene = (props: Props) => {
       <ambientLight intensity={0.75} />
       {props.children}
       <Preload all />
-      {props.orbit && <OrbitControls />}
+      <OrbitControls />
     </Canvas>
   );
 };
