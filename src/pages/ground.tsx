@@ -1,13 +1,13 @@
 import dynamic from 'next/dynamic';
-import Instructions from '@/components/dom/Instructions';
+import Instructions from '../components/dom/Instructions';
 import React from 'react';
 
-const Blob = dynamic(() => import('@/components/canvas/Blob'), { ssr: false });
+const Blob = dynamic(() => import('../components/canvas/Blob'), { ssr: false });
 
 export default function Page(props) {
   return (
     <div className=''>
-      <div>\this is fucking test</div>
+      <div>This is fucking test</div>
     </div>
   );
 }
